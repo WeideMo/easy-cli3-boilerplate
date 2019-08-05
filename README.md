@@ -452,6 +452,8 @@ module.exports = {
 
 后续每次执行编译操作的时候，你可以惊喜发现稳定的依赖库，被打到了 `'dist/vendor/vendor.dll.js'` 和 `'dist/vendor/vendor.dll.js.gz'` 中：
 
+![miniAjax](https://www.moweide.com/vue_inaction_cli3/vendor.png)
+
 可能细心的同学会发现，我们还用了一个 `AddAssetHtmlPlugin` 插件，用来把单独生产的 `vendor.dll.js` 文件放到了我们 `index.html` 中，这样优雅而快捷的方式是不是十分迷人。
 
 ### 开启 PWA
