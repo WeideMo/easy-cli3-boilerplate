@@ -12,7 +12,7 @@
     "dll": "webpack -p --progress --config ./dll.config.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "qs": "^6.7.0",
     "register-service-worker": "^1.6.2",
